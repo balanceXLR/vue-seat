@@ -1,6 +1,6 @@
 {
   "name": "vue-seat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a seat directive for vue",
   "main": "dist/bundle.js",
   "scripts": {

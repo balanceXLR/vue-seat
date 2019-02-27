@@ -1,4 +1,4 @@
+node_modules
+src
+build
 .*
-*.md
-node_modules/
-src/
