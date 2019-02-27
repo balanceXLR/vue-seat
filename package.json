@@ -1,7 +1,7 @@
 {
-  "name": "vc-component",
+  "name": "vue-seat",
   "version": "1.0.0",
-  "description": "a component template for vue",
+  "description": "a seat directive for vue",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "node build/build.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1465799166/vc-component.git"
+    "url": "git+https://github.com/1465799166/vue-seat.git"
   },
   "keywords": [
     "vue",
@@ -18,13 +18,14 @@
   "author": "shenjiaheng",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1465799166/vc-component/issues"
+    "url": "https://github.com/1465799166/vue-seat/issues"
   },
-  "homepage": "https://github.com/1465799166/vc-component#readme",
+  "homepage": "https://github.com/1465799166/vue-seat#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
