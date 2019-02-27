@@ -5,7 +5,7 @@ const baseConfig = require('./webpack.base.conf');
 module.exports = merge(baseConfig, {
   mode: 'production',
   devtool: 'source-map',
-  entry: path.resolve(__dirname, '../src/components/index.js'),
+  entry: path.resolve(__dirname, '../src/directive/vue-seat/index.js'),
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'bundle.js',
